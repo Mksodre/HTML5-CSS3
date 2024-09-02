@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>
+        Tente abrir esse site em varios dispositivod diferente ou simplesmente aumente e diminua seu navegador
+    </p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagem/P.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagem/M.png" type="image/png">
+        <img src="imagem/G.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprende a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/goodmorning.mp3" type="audio/mpeg"/>
+        <source src="midia/goodmorning.ogg" type="audio/ogg"/>
+        <source src="midia/goodmorning.wav" type="audio/wav"/>
+        <p>Infelismente seu navegador não consegue reprodizir áudio.</p><a href="midia/goodmorning.mp3">Clique aqui para baixar o arquivo MP3</a>
+    </audio>
+    
+</body>
+</html>

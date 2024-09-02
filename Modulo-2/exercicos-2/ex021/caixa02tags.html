@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(105, 105, 105);
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 5px;
+        }
+        header > h1{
+            text-align: center;
+        }
+        .img-on{
+            margin: -80px 0px 0px 832px;
+            width: 180px;
+
+        }
+        nav{
+            background-color: rgb(221, 221, 183);
+            padding: 5px;
+            box-shadow: 3px 4px 5px rgb(186, 186, 154);
+            margin: 10px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: black;
+            margin: 23px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+        nav > .ultimo{
+            margin-left: 850px;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        article{
+            background-color: rgb(186, 183, 183);
+            height: 300px;
+            padding: 3px;
+        }
+        aside >p {
+            text-indent: 20px;
+            color: blueviolet;
+        }
+        aside > h2{
+            text-align: center;
+            color: red;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+        footer > p{
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header> <!--headre é como se fosse o cabeçalho-->
+        <h1>meu site </h1>
+        <img class="img-on" src="download-1.jfif"alt="">
+        
+        <nav> <!--nave geralmente para por links, nave de navegação-->
+            <a href="#autor">Autor</a> <!--link ancora-->
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a class="ultimo" href="#">Ultimo</a>
+        </nav>
+    </header>
+    <main> <!--main como é o corpo tudo que a de principal da pagina-->
+        <section id="assunto"><!-- section são as sessoes -->
+            <p>*8**888******</p>
+        </section>
+        <section id="noticias">
+            <article><!--article é um artigo dentro da sessao-->
+                <aside><!-- aside é um conteudo periferico do artigo como nome do altor coisa do genero -->
+                    <h2>Autor: mfulano de tal</h2> 
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium reprehenderit odio architecto libero unde facilis, obcaecati doloremque dolor, aliquid tempora vitae consequatur sit eaque necessitatibus ea velit veritatis praesentium eum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa omnis, temporibus amet est nisi asperiores molestias reiciendis, doloremque sequi incidunt eaque officiis. Delectus similique laudantium placeat nisi dicta dolore. Nesciunt.
+                    </p>
+
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+    <footer><!--footer geralmente usado para roda pé -->
+        <p id="autor">maammamamamamamamamaa</p>
+    </footer>
+</body>
+</html>
